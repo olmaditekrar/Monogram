@@ -7,13 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B3A23211E5EFC9B00B98E38 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A23201E5EFC9B00B98E38 /* UserSession.swift */; };
+		3B3A23241E5F2C1400B98E38 /* PostSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A23231E5F2C1400B98E38 /* PostSession.swift */; };
+		3BD231C81E5DA9A300902E44 /* profilePostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD231C71E5DA9A300902E44 /* profilePostTableViewCell.swift */; };
+		3BD231CA1E5DDEE500902E44 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BD231C91E5DDEE500902E44 /* GoogleService-Info.plist */; };
+		3BD231CB1E5DDEE500902E44 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BD231C91E5DDEE500902E44 /* GoogleService-Info.plist */; };
+		3BD231CC1E5DDEE500902E44 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BD231C91E5DDEE500902E44 /* GoogleService-Info.plist */; };
+		3BD231CF1E5DFEA700902E44 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD231CE1E5DFEA700902E44 /* LoginService.swift */; };
+		3BD231D01E5DFEA700902E44 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD231CE1E5DFEA700902E44 /* LoginService.swift */; };
+		3BD231D11E5DFEA700902E44 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD231CE1E5DFEA700902E44 /* LoginService.swift */; };
+		3BE3BC3A1E57303400EA97DB /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE3BC391E57303400EA97DB /* signInViewController.swift */; };
+		3BE3BC3C1E57308200EA97DB /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE3BC3B1E57308200EA97DB /* signUpViewController.swift */; };
 		BABE1D491E507D9900E5E7E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABE1D481E507D9900E5E7E9 /* AppDelegate.swift */; };
-		BABE1D4B1E507D9900E5E7E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABE1D4A1E507D9900E5E7E9 /* ViewController.swift */; };
+		BABE1D4B1E507D9900E5E7E9 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABE1D4A1E507D9900E5E7E9 /* TabBarController.swift */; };
 		BABE1D4E1E507D9900E5E7E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABE1D4C1E507D9900E5E7E9 /* Main.storyboard */; };
 		BABE1D501E507D9900E5E7E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BABE1D4F1E507D9900E5E7E9 /* Assets.xcassets */; };
 		BABE1D531E507D9900E5E7E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABE1D511E507D9900E5E7E9 /* LaunchScreen.storyboard */; };
 		BABE1D5E1E507D9900E5E7E9 /* MonogramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABE1D5D1E507D9900E5E7E9 /* MonogramTests.swift */; };
 		BABE1D691E507D9900E5E7E9 /* MonogramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABE1D681E507D9900E5E7E9 /* MonogramUITests.swift */; };
+		BABE1D771E50834C00E5E7E9 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABE1D761E50834C00E5E7E9 /* FeedViewController.swift */; };
+		BABE1D791E50838F00E5E7E9 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABE1D781E50838F00E5E7E9 /* profileViewController.swift */; };
+		BABE1D7B1E508C3100E5E7E9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABE1D7A1E508C3100E5E7E9 /* Post.swift */; };
+		BABE1D7F1E50918300E5E7E9 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABE1D7E1E50918300E5E7E9 /* PostTableViewCell.swift */; };
+		BABE1D821E5091FF00E5E7E9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABE1D811E5091FF00E5E7E9 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +50,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B3A23201E5EFC9B00B98E38 /* UserSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
+		3B3A23231E5F2C1400B98E38 /* PostSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostSession.swift; sourceTree = "<group>"; };
+		3BD231C71E5DA9A300902E44 /* profilePostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profilePostTableViewCell.swift; sourceTree = "<group>"; };
+		3BD231C91E5DDEE500902E44 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3BD231CE1E5DFEA700902E44 /* LoginService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		3BE3BC391E57303400EA97DB /* signInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
+		3BE3BC3B1E57308200EA97DB /* signUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
 		BABE1D451E507D9900E5E7E9 /* Monogram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monogram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABE1D481E507D9900E5E7E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BABE1D4A1E507D9900E5E7E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BABE1D4A1E507D9900E5E7E9 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		BABE1D4D1E507D9900E5E7E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BABE1D4F1E507D9900E5E7E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BABE1D521E507D9900E5E7E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +70,11 @@
 		BABE1D641E507D9900E5E7E9 /* MonogramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonogramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABE1D681E507D9900E5E7E9 /* MonogramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonogramUITests.swift; sourceTree = "<group>"; };
 		BABE1D6A1E507D9900E5E7E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BABE1D761E50834C00E5E7E9 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		BABE1D781E50838F00E5E7E9 /* profileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		BABE1D7A1E508C3100E5E7E9 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		BABE1D7E1E50918300E5E7E9 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		BABE1D811E5091FF00E5E7E9 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +102,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B3A23221E5F2BDD00B98E38 /* Sessions */ = {
+			isa = PBXGroup;
+			children = (
+				3B3A23201E5EFC9B00B98E38 /* UserSession.swift */,
+				3B3A23231E5F2C1400B98E38 /* PostSession.swift */,
+			);
+			name = Sessions;
+			sourceTree = "<group>";
+		};
+		3BD231CD1E5DFE9500902E44 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3BD231CE1E5DFEA700902E44 /* LoginService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		3BE3BC381E572FF900EA97DB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BABE1D781E50838F00E5E7E9 /* profileViewController.swift */,
+				BABE1D761E50834C00E5E7E9 /* FeedViewController.swift */,
+				3BE3BC391E57303400EA97DB /* signInViewController.swift */,
+				3BE3BC3B1E57308200EA97DB /* signUpViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		BABE1D3C1E507D9600E5E7E9 = {
 			isa = PBXGroup;
 			children = (
@@ -97,11 +153,16 @@
 		BABE1D471E507D9900E5E7E9 /* Monogram */ = {
 			isa = PBXGroup;
 			children = (
+				3B3A23221E5F2BDD00B98E38 /* Sessions */,
+				3BD231CD1E5DFE9500902E44 /* Services */,
+				3BE3BC381E572FF900EA97DB /* ViewControllers */,
+				BABE1D801E5091B200E5E7E9 /* Models */,
 				BABE1D481E507D9900E5E7E9 /* AppDelegate.swift */,
-				BABE1D4A1E507D9900E5E7E9 /* ViewController.swift */,
+				BABE1D4A1E507D9900E5E7E9 /* TabBarController.swift */,
 				BABE1D4C1E507D9900E5E7E9 /* Main.storyboard */,
 				BABE1D4F1E507D9900E5E7E9 /* Assets.xcassets */,
 				BABE1D511E507D9900E5E7E9 /* LaunchScreen.storyboard */,
+				3BD231C91E5DDEE500902E44 /* GoogleService-Info.plist */,
 				BABE1D541E507D9900E5E7E9 /* Info.plist */,
 			);
 			path = Monogram;
@@ -123,6 +184,17 @@
 				BABE1D6A1E507D9900E5E7E9 /* Info.plist */,
 			);
 			path = MonogramUITests;
+			sourceTree = "<group>";
+		};
+		BABE1D801E5091B200E5E7E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BABE1D7E1E50918300E5E7E9 /* PostTableViewCell.swift */,
+				3BD231C71E5DA9A300902E44 /* profilePostTableViewCell.swift */,
+				BABE1D7A1E508C3100E5E7E9 /* Post.swift */,
+				BABE1D811E5091FF00E5E7E9 /* User.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,10 +261,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = "Rasim DEMIRBAY";
+				ORGANIZATIONNAME = olmaditekrar;
 				TargetAttributes = {
 					BABE1D441E507D9700E5E7E9 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SJYB86L23S;
 						ProvisioningStyle = Automatic;
 					};
 					BABE1D581E507D9900E5E7E9 = {
@@ -233,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BABE1D531E507D9900E5E7E9 /* LaunchScreen.storyboard in Resources */,
+				3BD231CA1E5DDEE500902E44 /* GoogleService-Info.plist in Resources */,
 				BABE1D501E507D9900E5E7E9 /* Assets.xcassets in Resources */,
 				BABE1D4E1E507D9900E5E7E9 /* Main.storyboard in Resources */,
 			);
@@ -242,6 +316,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BD231CB1E5DDEE500902E44 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +324,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BD231CC1E5DDEE500902E44 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +335,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BABE1D4B1E507D9900E5E7E9 /* ViewController.swift in Sources */,
+				BABE1D4B1E507D9900E5E7E9 /* TabBarController.swift in Sources */,
+				BABE1D771E50834C00E5E7E9 /* FeedViewController.swift in Sources */,
+				3B3A23241E5F2C1400B98E38 /* PostSession.swift in Sources */,
+				BABE1D791E50838F00E5E7E9 /* profileViewController.swift in Sources */,
+				3B3A23211E5EFC9B00B98E38 /* UserSession.swift in Sources */,
 				BABE1D491E507D9900E5E7E9 /* AppDelegate.swift in Sources */,
+				3BE3BC3A1E57303400EA97DB /* signInViewController.swift in Sources */,
+				BABE1D7B1E508C3100E5E7E9 /* Post.swift in Sources */,
+				3BD231CF1E5DFEA700902E44 /* LoginService.swift in Sources */,
+				BABE1D7F1E50918300E5E7E9 /* PostTableViewCell.swift in Sources */,
+				3BD231C81E5DA9A300902E44 /* profilePostTableViewCell.swift in Sources */,
+				BABE1D821E5091FF00E5E7E9 /* User.swift in Sources */,
+				3BE3BC3C1E57308200EA97DB /* signUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BABE1D5E1E507D9900E5E7E9 /* MonogramTests.swift in Sources */,
+				3BD231D01E5DFEA700902E44 /* LoginService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BABE1D691E507D9900E5E7E9 /* MonogramUITests.swift in Sources */,
+				3BD231D11E5DFEA700902E44 /* LoginService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +501,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SJYB86L23S;
 				INFOPLIST_FILE = Monogram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.olmaditekrar.Monogram;
@@ -424,6 +514,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SJYB86L23S;
 				INFOPLIST_FILE = Monogram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.olmaditekrar.Monogram;
@@ -505,6 +596,7 @@
 				BABE1D6F1E507D9900E5E7E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BABE1D701E507D9900E5E7E9 /* Build configuration list for PBXNativeTarget "MonogramTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +605,7 @@
 				BABE1D721E507D9900E5E7E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BABE1D731E507D9900E5E7E9 /* Build configuration list for PBXNativeTarget "MonogramUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +614,7 @@
 				BABE1D751E507D9900E5E7E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

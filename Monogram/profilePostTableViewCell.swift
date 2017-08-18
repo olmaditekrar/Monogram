@@ -1,9 +1,15 @@
-//
-//  profilePostTableViewCell.swift
-//  Monogram
-//
-//  Created by Onur Can on 22.02.2017.
-//  Copyright © 2017 olmaditekrar. All rights reserved.
-//
-
 import Foundation
+import UIKit
+
+class profilePostTableViewCell : UITableViewCell {
+
+
+
+
+
+    @IBOutlet weak var profilePhotoImageView: UIImageView!
+    @IBOutlet weak var usernameLabel: UILabel!
+    @IBOutlet weak var mapLabel: UILabel!
+    @IBOutlet weak var postPhotoImageView: UIImageView!
+    @IBOutlet weak var timeAgoLabel: UILabel!
+}

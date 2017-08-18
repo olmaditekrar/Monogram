@@ -1,13 +1,21 @@
-//
-//  User.swift
-//  Monogram
-//
-//  Created by Rasim DEMIRBAY on 12/02/2017.
-//  Copyright © 2017 Rasim DEMIRBAY. All rights reserved.
-//
-
 import UIKit
 
-class User: NSObject {
-
+class User {
+    var username : String
+    var password : String
+    var userPhoto : UIImage?
+    var userBio : String
+    var userBackgroundPhoto : UIImage?
+    init(username : String ,password : String, userPhoto : UIImage , userBio : String , userBackgroundPhoto : UIImage) {
+        self.username = username
+        self.userPhoto = userPhoto
+        self.password = password
+        self.userBio = userBio
+        self.userBackgroundPhoto = userBackgroundPhoto
+    }
+    init() {
+        username = ""
+        password = ""
+        userBio = ""
+    }
 }

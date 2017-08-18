@@ -1,35 +1,51 @@
-//
-//  signInViewController.swift
-//  Monogram
-//
-//  Created by Onur Can on 17.02.2017.
-//  Copyright © 2017 Rasim DEMIRBAY. All rights reserved.
-//
-
 import UIKit
 
 class signInViewController: UIViewController {
-
+    @IBOutlet weak var usernameTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var warningLabel: UILabel!
+    var userSession = UserSession.shared
+    var currentUser  = User()
+    var userIndex = 0
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
+
+    @IBAction func signInButtonPressed(_ sender: Any) {
+        let usernameInfo = usernameTextField.text
+        let passwordInfo = passwordTextField.text
+        userIndex = loginService(username: usernameInfo!, password: passwordInfo!)
+        if userIndex != -1 {
+            currentUser = userSession.usersArray[userIndex]
+            print("Giris Basarili ...")
+            let storyboard = UIStoryboard(name : "Main" , bundle : nil)
+            let feedViewController = storyboard.instantiateViewController(withIdentifier: "FeedViewController") as! FeedViewController
+            feedViewController.currentUser = currentUser
+            present(feedViewController, animated: true, completion: nil)
+            warningLabel.text = ""
+        }
+        else {
+            warningLabel.text = "Username or password is wrong ."
+            print("Giris Hatali ...")
+        }
+        
+       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
     }
-    */
-
 }
